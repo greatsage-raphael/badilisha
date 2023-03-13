@@ -7,7 +7,7 @@
     "build": "npx prisma generate && npx prisma db push && next build",
     "start": "next start",
     "lint": "next lint",
-    "db:proxy": "pscale connect video-course-starter-kit main --port 3309"
+    "db:proxy": "pscale connect badilisha badilisha1 --port 3309"
   },
   "dependencies": {
     "@mux/blurhash": "^0.1.2",
@@ -31,7 +31,8 @@
     "react-hook-form": "^7.35.0",
     "react-hot-toast": "^2.4.0",
     "react-markdown": "^8.0.3",
-    "react-textarea-autosize": "^8.3.4"
+    "react-textarea-autosize": "^8.3.4",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/lodash.get": "^4.4.7",
