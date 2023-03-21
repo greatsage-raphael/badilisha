@@ -113,7 +113,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   }
 
   const upload = await Video.Uploads.create({
-    cors_origin: 'https://localhost:3000',
+    cors_origin: 'https://localhost:3002',
     new_asset_settings: {
       playback_policy: ['public', 'signed'],
       passthrough: JSON.stringify({ userId: session.user?.id })
