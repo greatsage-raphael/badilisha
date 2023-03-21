@@ -35,7 +35,7 @@ const AdminNewCourse: NextPage = () => {
 
   return (
     <>
-      <Heading>New course</Heading>
+      <Heading>New Film</Heading>
       <CourseForm onSubmit={onSubmit} isLoading={mutation.isLoading} />
     </>
   );
